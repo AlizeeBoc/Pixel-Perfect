@@ -1,26 +1,13 @@
 @font-face {
-    font-family: "Trueno";
-    src: url("/fonts/truenobd.otf") format("opentype");
+    font-family: "GoodTimes";
+    src : url("/fonts/MADE\ GoodTime\ Grotesk\ PERSONAL\ USE.otf") format("opentype");
 }
 
 @font-face {
-    font-family: "TruenoEXB";
-    src : url("/fonts/truenoexbd.otf") format("opentype");
+    font-family: "ViceCity";
+    src : url("fonts/ViceCitySans-Light.otf") format("opentype");
 }
 
-@font-face {
-    font-family: "Azimov";
-    src : url("fonts/asimovxwid.otf") format("opentype");
-}
-
-@media only screen and (min-width:768px) {
-    .row {
-        margin:0px;
-        padding-left: 75px;
-        padding-bottom: 50px;
-        padding-top: 66px;
-    }
-}
 
 * {
     box-sizing: border-box;
@@ -31,40 +18,36 @@
 #container {
     display: flex;
     flex-direction: column;
-    background-color: #e8eef5;
-    width: auto;
-    height: 100%;
-    margin: 15px;
     border-radius: 25px;
-    color: #0f012a;
-    font-family: "Trueno";
+    height: fit-content;
+    background-color: #e8eef5;
+    margin: 8px;
+    color: #0f012a;;
     font-size: 18px;
 }
 
 .row {
     display: flex;
-    padding: 25px;
+    padding: 38px 35px;
     border: 2px solid white;
     align-items: center;
+    font-weight:900;
 }
 
-
-h2 {
-    font-family: "TruenoEXB";
-}
-
-.lorem {
-    font-size: 14px;
-    display: flex;
-    align-items: center;
-    font-family: "Azimov";
-    margin-left: 20px;
-    line-height: 1.5;
-}
 
 h1 {
     font-size: 150%;
     white-space: nowrap;
+    font-family: "GoodTimes", Arial, Helvetica, sans-serif;;
+}
+
+.lorem {
+    font-size: 96%;
+    display: flex;
+    align-items: center;
+    font-family: "ViceCity", Arial, Helvetica, sans-serif;;
+    margin-left: 20px;
+    line-height: 1.5;
 }
 
 
@@ -76,3 +59,21 @@ h1 {
 
 */
 
+@media only screen and (min-width:600px) {
+    .lorem {
+        font-size: 125%;
+    }
+
+    .row {
+        padding: 32px 60px;
+    }
+
+    h1 {
+        margin: 0px;
+        font-size: 180%;
+    }
+
+    #container {
+        margin:18px;
+    }
+}
