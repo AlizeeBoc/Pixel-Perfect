@@ -2,24 +2,50 @@
     font-family: "Trueno";
     src: url("/fonts/truenobd.otf") format("opentype");
 }
+
+@font-face {
+    font-family: "TruenoEXB";
+    src : url("/fonts/truenoexbd.otf") format("opentype");
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
+    height: 100%;
 }
 
 #container {
     display: flex;
     flex-direction: column;
-    background-color: #e8eef5 ;
-    width: 100vw;
-    height: 100vh;
-    margin:30px;
-    border-radius:25px;
+    background-color: #e8eef5;
+    width: auto;
+    height: 100%;
+    margin: 15px;
+    border-radius: 25px;
     color: #0f012a;
     font-family: "Trueno";
+    font-size: 18px;
 }
 
 .row {
     display: flex;
+    padding: 25px;
+    border: 2px solid white;
+    align-items: center;
 }
 
+
+h2 {
+    font-family: "TruenoEXB";
+}
+
+.lorem {
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.fa-check {
+    display: flex;
+    align-items: center;
+}
