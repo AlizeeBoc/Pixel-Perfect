@@ -8,6 +8,20 @@
     src : url("/fonts/truenoexbd.otf") format("opentype");
 }
 
+@font-face {
+    font-family: "Azimov";
+    src : url("fonts/asimovxwid.otf") format("opentype");
+}
+
+@media only screen and (min-width:768px) {
+    .row {
+        margin:0px;
+        padding-left: 75px;
+        padding-bottom: 50px;
+        padding-top: 66px;
+    }
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -40,12 +54,25 @@ h2 {
 }
 
 .lorem {
-    font-size: 15px;
+    font-size: 14px;
     display: flex;
     align-items: center;
+    font-family: "Azimov";
+    margin-left: 20px;
+    line-height: 1.5;
 }
 
+h1 {
+    font-size: 150%;
+    white-space: nowrap;
+}
+
+
+/*Pourquoi je parviens a le positionner dans l'inspector mais pas ici?!
 .fa-check {
     display: flex;
     align-items: center;
 }
+
+*/
+
