@@ -2,11 +2,11 @@
 * {
     box-sizing:border-box ;
     margin:0px;
-    font-family: "Butler";
+    font-family: "Nanum Myeongjo";
 }
 
 body {
-    color : #2e3238;
+    color : #282934;
     margin: 38px 32px;
     margin : 2rem;
 }
@@ -22,19 +22,21 @@ header>p {
     font-weight: bold;
 }
 
-h1, p {
+h1 {
     margin: 15px 0px;
-    font-family: 'Libre Baskerville', serif;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Nanum Myeongjo', serif;
 }
 
 h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
+    font-weight: 700;
 }
 
 p {
+    margin: 15px 0px;
     font-weight : 500;
     font-size : 1rem;
+    font-family: "Poppins";
 }
 
 .container {
@@ -48,13 +50,12 @@ footer {
 }
 
 button {
-    background-color: #2e3238;
+    background-color: #282934;
     color: white;
     text-transform: uppercase;
     padding: 20px;
     width: 100%;
-    font-family: 'Libre Baskerville', serif;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Poppins";
     font-size : 1em;
     margin-top : 1rem;
 }

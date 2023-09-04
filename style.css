@@ -1,0 +1,33 @@
+* {
+    box-sizing:border-box ;
+    margin:0px;
+    font-family: 'Cheltenham';
+    background: #ECEFF1;
+}
+
+#container {
+    display : flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 2rem;
+}
+
+ul{ 
+  list-style: none;
+}
+
+a {
+    text-decoration: none;
+    line-height: 2em;
+    color : black
+}
+
+a:hover {
+    color : blue
+}
+
+#links {
+    display : flex;
+    flex-direction: column;
+    margin : 2rem;
+}
